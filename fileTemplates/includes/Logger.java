@@ -1,0 +1,1 @@
+private final Logger log = LoggerFactory.getLogger(${NAME}.class);
