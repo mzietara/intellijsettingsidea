@@ -3,5 +3,23 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*properties*" />
+    <mask>*.properties</mask>
+    <mask>*.html</mask>
+    <mask>*.jsp</mask>
+    <mask>*.xml</mask>
+    <mask>*.as</mask>
+    <mask>*.css</mask>
+    <mask>*.mxml</mask>
+    <mask>!*Tes*.java,*.java</mask>
+    <mask>!*test*,!*Test*,!*.adoc,!*.xml*,!*.gradle*,!*.gen</mask>
+    <mask>*config*.java</mask>
+    <mask>*.java</mask>
+    <mask>*.js</mask>
+    <mask>!*.gen</mask>
+    <mask>*.yml</mask>
+    <mask>!*.yml</mask>
+    <mask>*</mask>
+    <mask>*properties*</mask>
   </component>
 </application>
