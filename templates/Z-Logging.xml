@@ -1,0 +1,28 @@
+<templateSet group="Z-Logging">
+  <template name="log" value="private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger($CLASS_NAME$.class);$END$" description="Logger" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="loge" value="log.error(&quot;$METHOD$: $MESSAGE$&quot;, $THROWABLE$);$END$" description="Log Error" toReformat="false" toShortenFQNames="true">
+    <variable name="METHOD" expression="capitalize(methodName())" defaultValue="" alwaysStopAt="false" />
+    <variable name="MESSAGE" expression="" defaultValue="&quot;message&quot;" alwaysStopAt="true" />
+    <variable name="THROWABLE" expression="variableOfType(&quot;java.lang.Exception&quot;)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="logi" value="log.info($MESSAGE$);$END$" description="Log Info" toReformat="false" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="logd" value="log.debug($MESSAGE$);$END$" description="Log Debug" toReformat="false" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
