@@ -6,8 +6,12 @@
           <option name="url" value="https://github.com/mzietara/MageKnight.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://integreatly@bitbucket.org/xistnews/middleware.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\MyGit" />
+    <option name="cloneParentDir" value="C:\MyGit\xist" />
   </component>
 </application>
