@@ -10,8 +10,12 @@
           <option name="url" value="https://integreatly@bitbucket.org/xistnews/middleware.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://integreatly@bitbucket.org/integreatly/igy-mono.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\MyGit\xist" />
+    <option name="cloneParentDir" value="C:\MyGit" />
   </component>
 </application>
